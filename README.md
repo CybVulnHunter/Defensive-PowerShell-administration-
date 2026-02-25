@@ -117,3 +117,75 @@ python security_admin.py
 # Right-click PowerShell → Run as Administrator
 python security_admin.py
 
+
+============================================================
+DEFENSIVE POWERSHELL ADMINISTRATION TOOL v2.0
+Authorized System Administration Only
+============================================================
+
+SYSTEM SECURITY & HARDENING CHECKS:
+  [1]  Windows Update Status
+  [2]  Firewall Configuration
+  [3]  BitLocker Encryption Status
+  [4]  Local Security Policy Compliance
+  [5]  Windows Defender / Antivirus Status
+  [6]  System Hardening Configuration
+
+USER & ACCESS AUDITS:
+  [7]  Local User Account Audit
+  [8]  Running Services Audit
+  [9]  Scheduled Tasks Audit
+
+NETWORK & MONITORING:
+  [10] Network Connections Audit
+  [11] Windows Event Log Analysis
+
+SOFTWARE INVENTORY:
+  [12] Installed Software Inventory
+
+REPORTING:
+  [13] Generate Full Security Report
+
+SYSTEM:
+  [0]  Exit
+
+```
+security_admin.py
+├── Core Functions
+│   ├── run_powershell()
+│   └── clear_screen()
+├── Security Modules
+│   ├── check_windows_update_status()
+│   ├── check_firewall_configuration()
+│   ├── check_bitlocker_status()
+│   ├── check_security_policy()
+│   ├── check_windows_defender_status()
+│   ├── check_system_hardening()
+│   ├── check_local_users()
+│   ├── check_running_services()
+│   ├── check_scheduled_tasks()
+│   ├── check_network_connections()
+│   ├── check_event_logs()
+│   ├── check_installed_software()
+│   └── generate_full_report()
+└── Menu Engine
+    ├── display_menu()
+    ├── get_user_choice()
+    └── main()
+
+📧 Disclaimer
+
+This tool is provided strictly for educational and authorized administrative use. Users must ensure they have explicit permission before auditing any system.
+
+The authors assume no liability for misuse.
+
+🔗 Useful References
+
+Microsoft Security Baselines
+
+CIS Windows Benchmarks
+
+PowerShell Security Guidelines
+
+Windows Defender Documentation
+
