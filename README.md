@@ -117,7 +117,7 @@ python security_admin.py
 # Right-click PowerShell → Run as Administrator
 python security_admin.py
 
-
+output 
 ============================================================
 DEFENSIVE POWERSHELL ADMINISTRATION TOOL v2.0
 Authorized System Administration Only
@@ -150,28 +150,6 @@ SYSTEM:
   [0]  Exit
 
 ```
-security_admin.py
-├── Core Functions
-│   ├── run_powershell()
-│   └── clear_screen()
-├── Security Modules
-│   ├── check_windows_update_status()
-│   ├── check_firewall_configuration()
-│   ├── check_bitlocker_status()
-│   ├── check_security_policy()
-│   ├── check_windows_defender_status()
-│   ├── check_system_hardening()
-│   ├── check_local_users()
-│   ├── check_running_services()
-│   ├── check_scheduled_tasks()
-│   ├── check_network_connections()
-│   ├── check_event_logs()
-│   ├── check_installed_software()
-│   └── generate_full_report()
-└── Menu Engine
-    ├── display_menu()
-    ├── get_user_choice()
-    └── main()
 
 📧 Disclaimer
 
